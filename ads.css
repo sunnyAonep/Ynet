@@ -1,0 +1,9 @@
+div.ads1{
+    display: block;
+}
+.ads1{
+    height: 9vh;
+    width: 94vh;
+    margin-left: 25%;
+    background-image: url(img/ads1.jpg);
+}

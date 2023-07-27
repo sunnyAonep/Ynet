@@ -1,0 +1,21 @@
+.newmain1{
+    position: absolute;
+    top: 55vh;
+    display: inline-block;
+}
+.new{
+    position: relative;
+    height: 100%;
+    width: 50%;
+    text-align: right;
+    display: inline-block;
+    margin-left: 59%;
+    bottom: 350px;
+}
+.newphoto{
+    position: relative;
+    display: inline-block;
+height: 100%;
+width: 50%;
+margin-left: 3%;
+}
