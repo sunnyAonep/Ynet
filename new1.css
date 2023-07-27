@@ -1,21 +1,45 @@
 .newmain1{
-    position: absolute;
-    top: 55vh;
-    display: inline-block;
+    width: 90%;
+    position: relative;
+    top: 5vh;
+    display: inline-flex;
+    justify-content:space-evenly;
+    left: 5%;
 }
 .new{
     position: relative;
     height: 100%;
-    width: 50%;
+    width: 100%;
     text-align: right;
     display: inline-block;
-    margin-left: 59%;
-    bottom: 350px;
 }
 .newphoto{
+position: relative;
+height: 100%;
+width: 100%;
+margin-left: 5%;
+}
+.sidenew1{
+    position: relative;
+    background-color: rgb(255, 0, 0);
+    display: flex;
+    border: 10px solid #ff0000;
+    height: 100px;
+    width: 48%;
+    flex-direction: row-reverse;
+    justify-content:space-around;
+}
+#bibiphoto{
     position: relative;
     display: inline-block;
-height: 100%;
-width: 50%;
-margin-left: 3%;
+}
+.titlesidenew1{
+    position: relative;
+    height: 100%;
+    width: 60%;
+    padding-bottom: 100%;
+    text-align: right;
+    display: inline-block;
+    color: #fff;
+
 }

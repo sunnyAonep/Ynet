@@ -1,9 +1,27 @@
-div.ads1{
-    display: block;
-}
 .ads1{
-    height: 9vh;
-    width: 94vh;
-    margin-left: 25%;
-    background-image: url(img/ads1.jpg);
+    display:inline;
+    height: 13vh;
+    width: 100%;
+}
+.item1{
+    max-width: 100%;
+    display: inline-block;
+    height: auto;
+}
+.item2{
+    max-width: 100%;
+    display: inline-block;
+    height: auto;
+}
+#banners {
+position: relative;
+margin-left: 50%;
+top: 3vh;        
+width: 50%;
+grid-auto-flow: dense;
+  }
+  .item3 {
+    max-width: 100%;
+    display: inline-block;
+    height: auto;
 }
