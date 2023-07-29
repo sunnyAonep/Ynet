@@ -7,6 +7,7 @@
     left: 5%;
 }
 .new{
+    font-family: "Narkiss Block Regular";   
     position: relative;
     height: 100%;
     width: 100%;
@@ -25,7 +26,8 @@ margin-left: 5%;
     display: flex;
     border: 10px solid #ff0000;
     height: 100px;
-    width: 48%;
+    width: 80%;
+    margin-left: 12%;
     flex-direction: row-reverse;
     justify-content:space-around;
 }
@@ -36,10 +38,103 @@ margin-left: 5%;
 .titlesidenew1{
     position: relative;
     height: 100%;
+    width: 600px;
+    padding-bottom: 100%;
+    text-align: right;
+    display: inline-block;
+    color: #fff;
+
+}
+.sidenew2{
+    position: relative;
+    background-color: rgb(89, 0, 255);
+    display: flex;
+    border: 10px solid rgb(89, 0, 255);
+    height: 100px;
+    width: 80%;
+    margin-left: 12%;
+    flex-direction: row-reverse;
+    justify-content:space-around;
+}
+#womenphoto{
+    position: relative;
+    display: inline-block;
+}
+.titlesidenew2{
+    position: relative;
+    height: 100%;
     width: 60%;
     padding-bottom: 100%;
     text-align: right;
     display: inline-block;
     color: #fff;
 
+}
+.sidenew3{
+    position: relative;
+    background-color: rgb(255, 0, 0);
+    display: flex;
+    border: 10px solid #ff0000;
+    height: 100px;
+    width: 80%;
+    margin-left: 12%;
+    flex-direction: row-reverse;
+    justify-content:space-around;
+}
+#trainphoto{
+    position: relative;
+    display: inline-block;
+}
+.titlesidenew3{
+    position: relative;
+    height: 100%;
+    width: 60%;
+    padding-bottom: 100%;
+    text-align: right;
+    display: inline-block;
+    color: #fff;
+
+}
+.sidenew4{
+    position: relative;
+    background-color: rgb(89, 0, 255);
+    display: flex;
+    border: 10px solid rgb(89, 0, 255);
+    height: 100px;
+    width: 80%;
+    margin-left: 12%;
+    flex-direction: row-reverse;
+    justify-content:space-around;
+}
+#runphoto{
+    position: relative;
+    display: inline-block;
+}
+.titlesidenew4{
+    position: relative;
+    height: 100%;
+    width: 60%;
+    padding-bottom: 100%;
+    text-align: right;
+    display: inline-block;
+    color: #fff;
+
+}
+.news_and{
+    font-family: "Narkiss Block Regular";   
+    position: relative;
+    display: inline-flex;
+    height: 30vh;
+    width: 100vw;
+
+}
+.sidenewall{
+    
+display: inline-block;
+position: relative;
+ height: 30vh;
+ width: 100vw;
+ top: 10vh;
+ grid-row: 1/4;
+ grid-column: 1/6;
 }

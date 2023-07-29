@@ -15,10 +15,10 @@
 }
 #banners {
 position: relative;
-margin-left: 50%;
-top: 3vh;        
-width: 50%;
-grid-auto-flow: dense;
+display: inline-block;
+top: 8vh;        
+width: 55%;
+right: 3%;
   }
   .item3 {
     max-width: 100%;
