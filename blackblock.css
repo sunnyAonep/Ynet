@@ -1,0 +1,115 @@
+.blackblock{
+    position: relative;
+    background-color: #000;
+    height: 110vh;
+    width: 91%;
+    top: 28vh;
+    left: 4%;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 35% 35% 30%;
+    grid-template-rows: 20% 35% 35%;
+}
+.bnew1{
+
+height: 100%;
+width: 100%;
+grid-column: 1/2;
+grid-row: 1;
+color: #fff;
+text-align:center;
+font-size: x-large;
+}
+.bnew2{
+grid-column: 2;
+grid-row: 1;
+}
+.bnew3{
+    grid-column: 1;
+    grid-row: 2;   
+    border:2px solid #000000;
+    background: url(img/bnew1.jpg) no-repeat;
+    box-shadow: inset 10px 10px 50px #000000;
+    text-align: right; 
+color: #fff;
+}
+.bnew4{
+    grid-row: 2;
+grid-column: 2;
+border:2px solid #000000;
+background: url(img/bnew2.jpg) no-repeat;
+box-shadow: inset 10px 10px 50px #000000;
+text-align: right; 
+color: #fff;
+}
+.bnew5{
+    grid-row: 2;
+grid-column: 3;
+border:2px solid #000000;
+background: url(img/bnew3.jpg) no-repeat;
+box-shadow: inset 10px 10px 50px #000000;
+text-align: right; 
+color: #fff;
+}
+.bnew6{
+    grid-row: 3;
+grid-column: 1;
+border:2px solid #000000;
+background: url(img/bnew4.jpg) no-repeat;
+box-shadow: inset 10px 10px 50px #000000;
+text-align: right; 
+color: #fff;
+}
+.bnew7{
+    grid-row: 3;
+grid-column: 2;
+border:2px solid #000000;
+background: url(img/bnew5.jpg) no-repeat;
+box-shadow: inset 10px 10px 50px #000000;
+text-align: right; 
+color: #fff;
+}
+.bnew8{
+    grid-row: 3;
+grid-column: 3;
+border:2px solid #000000;
+background: url(img/bnew6.jpg) no-repeat;
+box-shadow: inset 10px 10px 50px #000000;
+text-align: right; 
+color: #fff;
+}
+#onemonth1{
+    margin-right: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 30px;
+}
+.img1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.imgtext{
+text-align: end;
+position: relative;
+top: 60%;
+color: #ffff;
+font-weight: bold;
+font-size: 130%
+}
+.bnew9{  
+height: 100%;
+width: 100%;
+grid-column: 2;
+grid-row: 4;
+color: #ffff;
+font-weight: bold;
+text-align:center;
+font-size:large;
+}
+.imgtext2{
+    text-align: end;
+    position: relative;
+    top: 50%;
+    color: #817e7e;
+    font-size: small;
+    }
