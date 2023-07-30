@@ -2,7 +2,9 @@
     width: 90%;
     position: relative;
     top: 5vh;
-    display: inline-flex;
+    height: 60vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
     justify-content:space-evenly;
     left: 5%;
 }
@@ -18,27 +20,24 @@
 position: relative;
 height: 100%;
 width: 100%;
-margin-left: 5%;
+grid-column: 1/2;
 }
 .sidenew1{
     position: relative;
     background-color: rgb(255, 0, 0);
     display: flex;
     border: 10px solid #ff0000;
-    height: 100px;
-    width: 80%;
-    margin-left: 12%;
+    height: 88%;
+    width: 100%;
+    grid-row: 1/2;
+    grid-column: 1/2;
     flex-direction: row-reverse;
     justify-content:space-around;
-}
-#bibiphoto{
-    position: relative;
-    display: inline-block;
 }
 .titlesidenew1{
     position: relative;
     height: 100%;
-    width: 600px;
+    width: 60%;
     padding-bottom: 100%;
     text-align: right;
     display: inline-block;
@@ -50,9 +49,10 @@ margin-left: 5%;
     background-color: rgb(89, 0, 255);
     display: flex;
     border: 10px solid rgb(89, 0, 255);
-    height: 100px;
-    width: 80%;
-    margin-left: 12%;
+    height: 100%;
+    width: 100%;
+    grid-row: 2/3;
+    grid-column: 1/2;
     flex-direction: row-reverse;
     justify-content:space-around;
 }
@@ -75,9 +75,10 @@ margin-left: 5%;
     background-color: rgb(255, 0, 0);
     display: flex;
     border: 10px solid #ff0000;
-    height: 100px;
-    width: 80%;
-    margin-left: 12%;
+    height: 100%;
+    width: 100%;
+    grid-row: 3/4;
+    grid-column: 1/2;
     flex-direction: row-reverse;
     justify-content:space-around;
 }
@@ -100,9 +101,10 @@ margin-left: 5%;
     background-color: rgb(89, 0, 255);
     display: flex;
     border: 10px solid rgb(89, 0, 255);
-    height: 100px;
-    width: 80%;
-    margin-left: 12%;
+    height: 85%;
+    width: 100%;
+    grid-row: 4/5;
+    grid-column: 1/2;
     flex-direction: row-reverse;
     justify-content:space-around;
 }
@@ -123,9 +125,14 @@ margin-left: 5%;
 .news_and{
     font-family: "Narkiss Block Regular";   
     position: relative;
-    display: inline-flex;
-    height: 30vh;
-    width: 100vw;
+   display: grid;
+   grid-template-columns: 50% 25% 25%;
+   grid-template-rows: 25% 25% 25% 25%;
+   grid-gap:5px ;
+   top: 10vh;
+    height: 90vh;
+    width: 90%;
+    left: 5%;
 
 }
 .sidenewall{

@@ -1,0 +1,222 @@
+.hadashot1{
+    position: relative;
+    top: 8vh;
+    height: 85vh;
+    display: grid;
+    grid-template-rows:10% 10% 10% 10% 10% 10% 10% 10% 10%;
+    grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% ;
+    grid-gap:5px;
+    margin-left: 8vw;
+    width: 80vw;
+}
+#shot1{
+grid-row: 1/5 ;
+grid-column: 6/11;
+}
+#shot2{
+    grid-row: 5/10;
+    grid-column: 6/8;
+}
+#shot3{
+    grid-row: 5/10;
+    grid-column: 8/11;
+}
+#shot4{
+    grid-row: 2/4;
+    grid-column: 4/6;
+}
+#shot5{
+    grid-row: 4/6;
+    grid-column: 4/6;
+    text-align: center;
+    font-size: large;
+    color: #000;
+}
+#shot6{
+    grid-row: 6/8;
+    grid-column: 4/6;
+}
+#shot7{
+    grid-row: 8/9;
+    grid-column: 4/6;
+    text-align: center;
+    font-size: large;
+    color: #000;
+}
+#shot8{
+    grid-row: 9/11;
+    grid-column: 4/6;
+    text-align: center;
+    
+}
+#shot9{
+    position: relative;
+    display: inline-block;
+    grid-column: 1/6;
+    border: 6px solid #fff;
+    text-align: left;
+    font-size:medium;
+    color: #fff;
+    background-color: rgb(0,0,238);
+    font-family: "Narkiss Block Regular";   
+    
+}
+#shot10{
+    grid-column:1/4 ;
+    text-align: right;
+    color: #000;
+}
+#shot11{
+    grid-column:1/4 ;
+    text-align: right;
+    color: #000;
+}
+#shot12{
+    grid-column:1/4 ;
+    text-align: right;
+    color: #000;
+}
+#shot13{
+    grid-column:1/4 ;    
+    text-align: right;
+    color: #000;
+}
+#shot14{
+    grid-column:1/4 ;
+    text-align: right;
+    color: #000;
+}#shot15{
+    grid-column:1/4 ;
+    grid-row: 7/9;
+    text-align: right;
+    color: #000;
+}
+#shot16{
+    grid-row: 9/11;
+    grid-column:1/4 ;
+    text-align: right;
+    color: #000;
+}
+#littledani{
+    color: rgb(190, 190, 190);
+}
+h5{
+    position: relative;
+    display: inline-block;
+    bottom: 10%;
+    text-align: right;
+    left: 76%;
+}
+
+.headshot2{
+    position: relative;
+    top: 8vh;
+    height: 85vh;
+    display: grid;
+    grid-template-rows:10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+    grid-template-columns: 10% 10% 10% 10% 5% 2% 10% 10% 10% 10% 5% ;
+    grid-gap:5px;
+    margin-left: 8vw;
+    width: 80vw;
+}
+.shott1{
+    background-color: rgb(0,0,238);
+    grid-column: 1/6;
+}
+.shott2{
+    background-color: rgb(0,0,238);
+    grid-column: 7/13;
+}
+.shott3{
+    grid-column: 1/4;
+    grid-row: 2/3;
+    text-align: right;
+    
+}
+.shott4{
+    text-align: right;
+    grid-column: 4/6;
+    grid-row: 2/4;
+}
+.shott5{
+    text-align: right;
+    grid-column: 1/4;
+}
+.shott6{
+    text-align: right;
+    grid-column: 1/4;
+
+}
+.shott7{
+    text-align: right;
+    grid-column: 1/4;
+
+}
+.shott8{
+    text-align: right;
+    grid-column: 1/4;
+
+}
+.shott9{
+    text-align: right;
+    grid-column: 1/4;
+
+}
+.shott10{
+    text-align: right;
+    grid-column: 1/4;
+
+}
+.shott11{
+    text-align: right;
+    grid-column: 1/4;
+
+}
+.shott12{
+    grid-column: 10/13;
+    grid-row: 2/4;
+}
+.shott13{
+    text-align: center;
+    grid-column: 4/6;
+    grid-row: 4/6;
+}
+.shott14{
+    text-align: center;
+    grid-column: 10/13;
+    grid-row: 4/6;
+}
+.shott15{
+    text-align: right;
+    grid-column: 7/10;
+    grid-row: 2/3;
+}
+.shott16{
+    text-align: right;
+    grid-column: 7/10;
+    grid-row: 3/4;
+    
+}.shott17{
+    text-align: right;
+    grid-column: 7/10;
+    grid-row: 4/6;
+}
+.shott18{
+    text-align: right;
+    grid-column: 7/10;
+    grid-row: 6/8;
+    
+}
+.shott19{
+    text-align: right;
+    grid-column: 7/10;
+    grid-row: 8/9;
+    
+}
+.shott20{
+    text-align: right;
+    grid-column: 7/10;
+    grid-row: 9/10;
+    
+}
+

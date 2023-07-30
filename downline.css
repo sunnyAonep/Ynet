@@ -1,0 +1,89 @@
+.line12{
+position: relative;    
+width: 91%;
+top: 13vh;
+height: 6vh;
+left: 5%;
+font-family: "Narkiss Block Regular";   
+color: rgb(255, 255, 255);
+display: grid;
+grid-column: 25% 25% 25% 25%;
+grid-gap:10px
+}
+.onetitle{
+    position: relative;
+    background-color: blue;
+    width: 100%;
+    height: 60%;
+    text-align: right;
+    grid-column: 1/2;
+}
+.twotitle{
+    position: relative;
+    width: 100%;
+    height: 60%;
+    background-color: blue;
+    text-align: right;
+    grid-column: 2/3;
+}
+.photoslines{
+    position: relative;
+    display: grid;
+    top: 14vh;
+    height: 40vh;
+    width: 91%;
+    left: 5%;
+    grid-template-columns: 16% 16% 16% 4% 16% 16% 16%;
+    grid-template-rows: 50% 50%;
+}
+.ph1{
+grid-column: 1/2;
+}
+.ph2{
+    grid-column: 2/3;
+
+}
+.ph3{
+    grid-column: 3/4;
+}
+.ph4{
+    grid-column: 5/6;
+}
+.ph5{
+    grid-column: 6/7;
+}
+.ph6{
+    grid-column: 7/8;
+}
+.titl1{
+    grid-column: 1/2;
+    grid-row: 2;
+}
+.titl2{
+    grid-column: 2/3;
+    grid-row: 2;
+}
+.titl3{
+    grid-column: 3/4;
+}
+.titl4{
+grid-column: 5/6;
+}
+.titl5{
+    
+}
+.titl6{
+    
+}
+/* table{
+    font-family: "Narkiss Block Regular";   
+    position: relative;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    border-collapse: collapse;
+    border: 5px solid rgb(255, 255, 255);
+
+}
+tbody{
+    text-align: center;
+} */

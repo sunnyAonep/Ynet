@@ -1,0 +1,35 @@
+/* .tablehelp{
+    height: 10vh;
+}
+.table_1{
+    position: relative;
+    top: 45vh;
+    height: 10vh;
+    margin-left: 8%;
+}
+table, th, td {
+    position: relative;
+    width: 60%;
+    background-color: rgb(255, 255, 255);
+    vertical-align: bottom;
+    table-layout:fixed;
+    border-collapse: collapse;
+    border: 5px solid rgb(255, 255, 255);
+    margin-right: 10%;
+}
+    #head1{
+        background-color: rgb(38, 0, 255);
+        border: 5px solid rgb(8, 0, 255);
+    }
+    #head2{
+        background-color: rgb(38, 0, 255);
+        border: 5px solid rgb(8, 0, 255);
+    }
+    table{
+        width: 88%;
+    }
+    td{
+        text-align: center;
+
+
+    } */

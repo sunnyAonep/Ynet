@@ -1,53 +1,56 @@
 .massege{
     font-family: "Narkiss Block Regular";   
     position: relative;
-    display: inline;
+    display: grid;
+    grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% ;
     margin-left: 9vh;
     top: 1px;
-    width: 100%;
+    grid-gap:5px;
+    margin-left: 2vw;
+    width: 95vw;
     height: 20vh;
-    background-color: rgb(219, 219, 219);
+    background-color: rgb(255, 255, 255);
 }
 .massege1{
     color: #000;
     background-color: rgb(219, 219, 219);
     display: inline-block;
-    height: 100%;
-    width: 20%;
+    height: 85%;
     text-align: right;
     border-right-style: dotted;
+    grid-column: 1/3;
 }
 .massege2{
     color: #000;
     background-color: rgb(219, 219, 219);
     display: inline-block;
-    height: 100%;
-    width: 18%;
+    height: 85%;
     text-align: right;
     border-right-style: dotted;
+    grid-column: 3/5;
 }
 .massege3{
     display: inline-block;
     background-color: rgb(219, 219, 219);
     background-color: rgb(219, 219, 219);
-    height: 100%;
-    width: 18%;
+    height: 85%;
     text-align: right;
     border-right-style: dotted; 
+    grid-column: 5/7;
 }
 .massege4{
     display: inline-block;
     background-color: rgb(219, 219, 219);
-    height: 100%;
-    width: 18%;
+    height: 85%;
+    grid-column: 7/9;
     text-align: right;
     border-right-style: solid ;
 }
 .massege5{
     display: inline-block;
+    grid-column: 9/11;
     background-color: rgb(219, 219, 219);
-    height: 100%;
-    width: 18%;
+    height: 85%;
     text-align: right;
 
 }
